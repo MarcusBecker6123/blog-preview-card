@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+:root{
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6b6b6b;
+    --white: #fff;
+    --medium: font-weight: 500;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F4D04E;
+    padding: 0 24px 0 24px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+.card {
+    margin:0 auto;
+    max-width: 384px;
+    width: 100%;
+    height: auto;
+    gap: 24px;
+    background: #fff;
+    border-radius: 20px;
+    border: 1px solid var(--gray-950);
+    box-shadow: 8px 8px 0 1px;
+    padding: 24px;
+}
+
+
+img {
+    display: inline-flex;
+    margin-bottom: 24px;
+    height: auto;
+    border-radius: 10px;
+    max-width: 100%;
+    
+}
+
+p {
+    font-family: 'Figtree', sans-serif;
+}
+
+.heading {
+    color: var(--gray-950);
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--yellow);
+    display: inline-block;
+    font-weight: bold;
+    line-height:150%;
+    font-size: 0.875rem;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+.publish {
+    color: var(--gray-950);
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    font-size: 0.875rem;
+    line-height: 150%;
+    background: #fff;
+    padding: 12px 0;
+}
+
+.subheading {
+    color: var(--gray-950);
+    font-family: 'Figtree', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.description {
+    line-height: 150%;
+    margin: 0;
+    font-size: 1rem;
+    letter-spacing: 0px;
+    font-family: 'Figtree', sans-serif;
+    font-weight: 500;
+    color: var(--gray-500);
+    padding: 12px 0;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+#avatar {
+    display: inline-flex;
+    position: relative;
+    top: 5px;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.name {
+    position: relative;
+    display: inline-flex;
+    top: -6px;
+    font-family: 'Figtree', sans-serif;
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 800;
+    color: var(--gray-950);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--gray-950);
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: var(--yellow)
+    }
