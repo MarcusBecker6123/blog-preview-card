@@ -22,9 +22,12 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     margin:0 auto;
     max-width: 384px;
-    width: 100%;
+    width: auto;
     height: auto;
     gap: 24px;
     background: #fff;
@@ -45,10 +48,12 @@ img {
 }
 
 p {
+    max-width: 256px;
     font-family: 'Figtree', sans-serif;
 }
 
 .heading {
+    
     color: var(--gray-950);
     font-family: 'Figtree', sans-serif;
     background-color: var(--yellow);
@@ -58,6 +63,7 @@ p {
     font-size: 0.875rem;
     padding: 4px 12px;
     border-radius: 4px;
+    
 }
 
 .publish {
