@@ -29,7 +29,7 @@ body {
     max-width: 384px;
     width: auto;
     height: auto;
-    gap: 24px;
+    gap: 12px;
     background: #fff;
     border-radius: 20px;
     border: 1px solid var(--gray-950);
@@ -40,7 +40,7 @@ body {
 
 img {
     display: inline-flex;
-    margin-bottom: 24px;
+    
     height: auto;
     border-radius: 10px;
     max-width: 100%;
@@ -74,7 +74,7 @@ p {
     font-size: 0.875rem;
     line-height: 150%;
     background: #fff;
-    padding: 12px 0;
+ 
 }
 
 .subheading {
@@ -93,7 +93,7 @@ p {
     font-family: 'Figtree', sans-serif;
     font-weight: 500;
     color: var(--gray-500);
-    padding: 12px 0;
+
 }
 
 .img-container {
@@ -105,17 +105,16 @@ p {
 
 #avatar {
     display: inline-flex;
-    position: relative;
-    top: 5px;
+   
     width: 2rem;
     height: 2rem;
     
 }
 
 .name {
-    position: relative;
-    display: inline-flex;
-    top: -6px;
+   
+    
+   
     font-family: 'Figtree', sans-serif;
     font-size: 0.875rem;
     line-height: 150%;
